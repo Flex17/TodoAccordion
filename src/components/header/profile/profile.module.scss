@@ -1,0 +1,31 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: url('../../../img/avatar.jpg') top center no-repeat;
+    background-size: cover;
+}
+
+.textBox {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    margin-left: 17px;
+
+    .name {
+	font-size: 16px;
+	font-weight: 700;
+	color: #11142D;
+	margin-bottom: 8px;
+    }
+    .work {
+	font-size: 12px;
+	font-weight: 400;
+	color: #9A9AB0;
+    }
+}

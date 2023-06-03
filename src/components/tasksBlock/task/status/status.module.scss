@@ -1,0 +1,28 @@
+.wrapper{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 105px;
+}
+
+.choiced {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.hiddenContainer {
+    position: relative;
+}
+
+.hiddenBlock {
+    position: absolute;
+}

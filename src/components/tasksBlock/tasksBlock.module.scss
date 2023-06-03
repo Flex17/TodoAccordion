@@ -1,0 +1,19 @@
+.wrapper {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    padding: 41px 36px;
+
+    @media (max-width: 480px) {
+	padding: 31px 15px;
+    }
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #11142D;
+    margin-bottom: 20px;
+    display: inline-flex;
+    margin-left: 5%;
+}

@@ -1,0 +1,18 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 31px;
+    background-color: #F7F7FC;
+    border-radius: 5px;
+
+    @media (max-width: 600px) {
+        display: none;
+    }
+}
+
+.text {
+    color: #11142D;
+    font-weight: 600;
+    font-size: 14px;
+}
